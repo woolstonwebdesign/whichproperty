@@ -1,0 +1,23 @@
+/* PRINT STYLESHEET 											*/
+/* ============================================================ */
+
+/* Add any elements you want to hide to the rule below */
+body {
+	background:#FFF;
+	color:#000;
+	font-size: 12pt;
+}
+
+#nav, 
+#search-box,
+#footer-nav {
+	display: none;
+}
+
+#content {
+	width: auto; 
+	margin: 0 5%;
+	padding: 0; 
+	border: 0;
+	background: transparent;
+}
