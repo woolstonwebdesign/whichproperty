@@ -1368,18 +1368,17 @@ body.page-template-template-home-group {
 }
 
 .page-template-template-home-group header.group-home-header > img {
-    width: 50vw;
+    width: 30vw;
 }
 
 .page-template-template-home-group #content {
-    width: 80vw;
+    width: 50vw;
     margin: 0 auto;
 }
 
 .page-template-template-home-group #content .page-subtitle {
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
-    width: 80%;
     margin: 3vh auto 5vh auto;
 }
 
@@ -1393,6 +1392,12 @@ body.page-template-template-home-group {
 .page-template-template-home-group #content .page-column-heading-container .wp-block-column,
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column {
     flex: 0 1 40%;
+}
+
+.page-template-template-home-group #content .page-column-heading-container .wp-block-column .wp-block-group .wp-block-group__inner-container p,
+.page-template-template-home-group #content .page-column-heading-container .wp-block-column p {
+    font-size: 0.9em;
+    line-height: 1.5em;
 }
 
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column {
