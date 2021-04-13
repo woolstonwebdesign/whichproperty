@@ -1341,6 +1341,30 @@ footer .logo {
 #Stamp_Duty_Calculator { min-height:800px !important; }
 
 /*  Group Home Template */
+@font-face {
+    font-family: 'Gill Sans';
+    font-weight: 700;
+    src: url('../fonts/Gill-Sans-Bold.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    font-weight: 400;
+    src: url('../fonts/Gill-Sans.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    font-weight: 300;
+    src: url('../fonts/Gill-Sans-Medium.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    font-weight: 100;
+    src: url('../fonts/Gill-Sans-Light.woff') format('woff')
+}
+
 .page-template-template-home-group {
 
 }
@@ -1372,7 +1396,7 @@ body.page-template-template-home-group {
 }
 
 .page-template-template-home-group #content {
-    width: 50vw;
+    width: 65vw;
     margin: 0 auto;
 }
 
@@ -1404,25 +1428,36 @@ body.page-template-template-home-group {
     border-radius: 20px;
 }
 
+
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h5 {
+    color: #fff !important;
+    font-family: 'Gill Sans';
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 {
     color: #fff !important;
+    font-family: 'Gill Sans';
     font-weight: 400;
     font-size: 1.5em;
 }
 
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column h3 {
     color: #fff !important;
+    font-family: 'Gill Sans';
     font-weight: 400;
     font-size: 1.9em;
     text-transform: uppercase;
 }
 
-.page-template-template-home-group #content .page-column-detail-container .wp-block-column h3 a,
-.page-template-template-home-group #content .page-column-detail-container .wp-block-column h3 a:link,
-.page-template-template-home-group #content .page-column-detail-container .wp-block-column h3 a:visited,
-.page-template-template-home-group #content .page-column-detail-container .wp-block-column h3 a:active,
-.page-template-template-home-group #content .page-column-detail-container .wp-block-column h3 a:hover {
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:link,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:visited,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:active,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:hover {
     color: #fff !important;
+    text-transform: uppercase;
     text-decoration: underline;
 }
 

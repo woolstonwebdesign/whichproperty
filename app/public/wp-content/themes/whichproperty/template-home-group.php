@@ -5,7 +5,7 @@
     $logo_args = array(
         'posts_per_page' => 1,
         'post_type' => 'attachment',
-        'name' => 'WPAM Logo (1)'
+        'name' => 'Which Property Group'
     );
     $logo = new WP_Query($logo_args);
     // var_dump($logo);
