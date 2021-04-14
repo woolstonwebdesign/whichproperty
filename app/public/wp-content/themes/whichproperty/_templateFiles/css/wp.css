@@ -1365,6 +1365,12 @@ footer .logo {
     src: url('../fonts/Gill-Sans-Light.woff') format('woff')
 }
 
+@font-face {
+    font-family: 'Cosmos Light';
+    font-weight: 100;
+    src: url('../fonts/Cosmos-Light.woff') format('woff')
+}
+
 .page-template-template-home-group {
 
 }
@@ -1372,6 +1378,8 @@ footer .logo {
 body.page-template-template-home-group {
     display: flex;
     flex-direction: column;
+    font-family: 'Gill Sans';
+    font-weight: 400;
 }
 
 .home-group-backdrop {
@@ -1392,7 +1400,7 @@ body.page-template-template-home-group {
 }
 
 .page-template-template-home-group header.group-home-header > img {
-    width: 30vw;
+    width: 25vw;
 }
 
 .page-template-template-home-group #content {
@@ -1404,6 +1412,7 @@ body.page-template-template-home-group {
     font-size: 1.1em;
     text-align: center;
     margin: 3vh auto 5vh auto;
+    font-family: 'Cosmos Light';
 }
 
 .page-template-template-home-group #content .page-column-heading-container,
@@ -1411,6 +1420,10 @@ body.page-template-template-home-group {
     text-align: center;
     justify-content: space-between;
     color: #000;
+}
+
+.page-template-template-home-group #content .page-column-heading-container {
+    margin-bottom: 0.8em;
 }
 
 .page-template-template-home-group #content .page-column-heading-container .wp-block-column,
@@ -1431,24 +1444,42 @@ body.page-template-template-home-group {
 
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column h5 {
     color: #fff !important;
-    font-family: 'Gill Sans';
+    font-family: 'Cosmos Light';
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 {
     color: #fff !important;
-    font-family: 'Gill Sans';
+    font-family: 'Cosmos Light';
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column h3 {
     color: #fff !important;
-    font-family: 'Gill Sans';
+    font-family: 'Cosmos Light';
     font-weight: 400;
     font-size: 1.9em;
     text-transform: uppercase;
+}
+
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column .wp-block-image img {
+    max-width: 50%;
+}
+
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h5 a,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h5 a:link,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h5 a:visited,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h5 a:active,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h5 a:hover,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:link,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:visited,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:active,
+.page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:hover {
+    color: #fff !important;
+    text-decoration: none;
 }
 
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a,
@@ -1456,9 +1487,7 @@ body.page-template-template-home-group {
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:visited,
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:active,
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column h4 a:hover {
-    color: #fff !important;
     text-transform: uppercase;
-    text-decoration: underline;
 }
 
 .page-template-template-home-group #content .page-column-detail-container .wp-block-column:nth-child(odd) {
@@ -1500,12 +1529,12 @@ body.page-template-template-home-group {
 
 .group-footer .group-footer-item .textwidget p {
     color: #fff;
-    font-size: 0.8em;
+    font-size: 0.7em;
     line-height: 0.8em;
 }
 
 .group-footer .group-footer-item img {
-    max-width: 80% !important;
-    width: 80% !important;
+    max-width: 50% !important;
+    width: 50% !important;
     height: auto !important;
 }
